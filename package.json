@@ -1,7 +1,7 @@
 {
-  "name": "@scoutkirkolson/vue-custom-element-example",
+  "name": "@scoutkirkolson/sko-custom-element-example",
   "version": "1.0.5",
-  "homepage": "https://scoutkirkolson.github.io/vue-custom-element-example",
+  "homepage": "https://scoutkirkolson.github.io/sko-custom-element-example",
   "scripts": {
     "dev": "vite build --watch",
     "check": "vue-tsc --noEmit",
@@ -22,7 +22,7 @@
     ".": "./dist/index.js",
     "./package.json": "./package.json"
   },
-  "peerDependencies": {
+  "dependencies": {
     "@vueuse/core": "^5",
     "vue": "^3.2"
   },
