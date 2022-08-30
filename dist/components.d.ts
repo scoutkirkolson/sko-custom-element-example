@@ -6,6 +6,8 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    'Ic:twotoneNightlight': typeof import('~icons/ic/twotone-nightlight')['default']
+    'Ic:twotoneWbSunny': typeof import('~icons/ic/twotone-wb-sunny')['default']
     'Mdi:github': typeof import('~icons/mdi/github')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
