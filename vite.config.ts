@@ -7,6 +7,11 @@ import components from 'unplugin-vue-components/vite'
 import dts from 'vite-plugin-dts'
 
 export default defineConfig({
+  define: {
+    'process.env': {
+      NODE_ENV: 'production'
+    }
+  },
   build: {
     lib: {
       entry: 'src/index.ts',
