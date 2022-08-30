@@ -13,10 +13,10 @@ export default defineConfig({
       formats: ['es'],
       fileName: 'index',
     },
-    rollupOptions: {
-      // Externalize deps that shouldn't be bundled into the library.
-      external: ['vue', '@vueuse/core'],
-    },
+    //rollupOptions: {
+    //  // Externalize deps that shouldn't be bundled into the library.
+    //  external: ['vue', '@vueuse/core'],
+    //},
     sourcemap: true,
     // Reduce bloat from legacy polyfills.
     target: 'esnext',
