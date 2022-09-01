@@ -9,3 +9,5 @@ export function register (tagName: string = 'dark-mode-switch') {
   customElements.define(tagName, DarkModeSwitch)
   customElements.define('github-link', GithubLink)
 }
+
+register()
